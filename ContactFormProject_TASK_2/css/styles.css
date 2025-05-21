@@ -1,0 +1,83 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: #007acc;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Layout */
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.contact, .todo {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Form Elements */
+input, textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Task List */
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  background-color: #e2f0f9;
+  margin: 8px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.removeBtn {
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
